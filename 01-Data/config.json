@@ -1,0 +1,46 @@
+﻿{
+    "development": {
+        "processQueueName": "ProcessQueueNameDev",
+        "processQueueFolder": "Default",
+        "maxRetryNumberInitApplications": 3,
+        "maxRetryNumberProcess": 2,
+        "maxConsecutiveSystemExceptions": 0,
+        "useStorageBucketFiles": false,
+        "localBucketDir": "01-Data\\Temp\\",
+        "manualExecutionTime": 30,
+        "exScreenshotsFolderPath": "ExceptionScreenshots",
+        "businessProcessName": "",
+        "assets": {  },
+        "credentials": {}
+    },
+    "production": {
+        "processQueueName": "ProcessQueueName",
+        "processQueueFolder": "ProcessQueueFolder",
+        "initializationLogQueueName": "InitializationLogQueue",
+        "initializationLogQueueFolder": "InitializationQueueFolder",
+        "maxRetryNumberInitApplications": 3,
+        "maxRetryNumberProcess": 2,
+        "maxConsecutiveSystemExceptions": 0,
+        "useStorageBucketFiles": false,
+        "localBucketDir": "01-Data\\Temp\\",
+        "manualExecutionTime": 30,
+        "exScreenshotsFolderPath": "ExceptionScreenshots",
+        "businessProcessName": "",
+        "assets": {
+            "smtpServer": {
+                "name": "smtp_server",
+                "orchestratorFolder": "Default"
+            },
+            "downloadFolder": {
+                "name": "downloadFolder",
+                "orchestratorFolder": "Default"
+            }
+        },
+        "credentials": {
+            "office365": {
+                "name": "rpa_office365",
+                "orchestratorFolder": "Default"
+            }
+        }
+    }
+}
