@@ -1,7 +1,7 @@
 ﻿{
     "development": {
-        "processQueueName": "ProcessQueueNameDev",
-        "processQueueFolder": "Default",
+        "processQueueName": "TestApps",
+        "processQueueFolder": "",
         "maxRetryNumberInitApplications": 3,
         "maxRetryNumberProcess": 2,
         "maxConsecutiveSystemExceptions": 0,

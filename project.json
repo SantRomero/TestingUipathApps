@@ -1,6 +1,5 @@
 {
   "name": "Test Upload Storage Buckets",
-  "projectId": "8c432da2-e396-46a1-9129-822c253b7ec0",
   "description": "a test proyect to test UiPath apps",
   "main": "Main.xaml",
   "dependencies": {
@@ -13,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.3.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.6",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -43,8 +42,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false,
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
